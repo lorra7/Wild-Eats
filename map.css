@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+body { background-color: #ffd5af;}
+
+nav {background-color: #650808;
+    padding-bottom: 10em;
+} 
+
+.restoImg { 
+    width: 10em;
+    height: 5em;
+    border-radius: 5%;
+}
+
+#main { 
+    padding: 2em 0 2em;
+    display: flex;
+    flex-direction: row;
+    gap : 0.5em;
+    padding-left: 0.5em;
+}
+
+#restaurant{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+iframe {
+    width : 13em;
+    height: 25em;
+    border-radius: 5%;
+}
+/*   ============== seconde partie ============= */
+h2{
+    font-size: 1.1rem;
+}
+#suggestions {
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.line{
+    border: solid #000;
+    width: 5.5em;
+    height: 0;
+}
+
+#autre {
+    display: flex;
+    justify-content: space-around;
+}
