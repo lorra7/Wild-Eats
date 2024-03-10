@@ -85,3 +85,22 @@
     size: center;
     background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 600px) {
+    #georges{background-size: 100%;}
+        #auguste { background-size: 100%;}
+        #prairial{background-size: 100%;}
+        #rem {background-size: 100%;}
+        #simone {background-size: 100%;}
+        #inada {background-size: 100%;}
+        #saveur {background-size: 100%;}
+        #shifumii {background-size: 100%;}
+        #hanoi {background-size: 100%;}
+        #palio {background-size: 100%;}
+        #avarelo {background-size: 100%;}
+        #terramia {background-size: 100%;}
+        #cucina{background-size: 100%;}
+
+
+
+}
