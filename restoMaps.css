@@ -1,0 +1,87 @@
+/* RESTAURANT TRANDI FRANCE */
+#georges{
+    background-image: url(assets/georges.jpg);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+
+
+#auguste {
+    background-image: url(assets/Auguste.png);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+
+#prairial{
+    background-image: url(assets/prairial.jpg);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+#rem {
+    background-image: url(assets/Rem.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+#simone {
+    background-image: url(assets/mlleSimone.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+
+/*============ RESTO ASITIQUE ==================*/
+
+#inada {
+    background-image: url(assets/inada.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+#saveur {
+    background-image: url(assets/saveurdumonde.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+#shifumii {
+    background-image: url(assets/SHIFUMII.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+#hanoi {
+    background-image: url(assets/Hanoi.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+
+/*============ PIZZERIA ============ */
+#palio {
+    background-image: url(assets/palio.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+#avarelo {
+    background-image: url(assets/avarello.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+#terramia {
+    background-image: url(assets/terramia.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+#cucina{
+    background-image: url(assets/cucina.png);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}

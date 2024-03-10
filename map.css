@@ -1,7 +1,10 @@
 :root {
-    --main-color: #ffd5af ;
-    --font-primaire: white;
-    --font-second: #FFAD00;
+    --main-color: #fbe7d5 ;
+    --font-primaire: #f4f4f4;
+    --font-second: #fac758;
+    --nav-color: #650808;
+    --font-familyPrincipal: helvetica;
+    --font-familyTitle: "Roboto", sans-serif;
 }
 
 *{
@@ -12,15 +15,21 @@ body {
     background-color: var(--main-color);
     width: 432px; /*METTRE LE BODY A 100%*/
     height: 852px;
-    /*border: solid pink;*/
+    border: solid green;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+h1 {
+    font-family: var(--font-familyPrincipal);
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 0.5em;
+}
 main{
     padding-bottom: 1.5em;
 }
-nav {background-color: #650808;
+nav {background-color: var(--nav-color);
     padding-bottom: 10em;
 } 
 
@@ -30,8 +39,9 @@ nav {background-color: #650808;
     border-radius: 5%;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
+    background-color: #000;
 }
 
 #main { 
@@ -62,6 +72,7 @@ footer {
 /*   ============== seconde partie ============= */
 h2{
     font-size: 1.1rem;
+    font-family: var(--font-familyPrincipal);
 }
 #suggestions {
     padding-bottom: 1em;
@@ -86,10 +97,13 @@ h2{
 h3{ 
     color: var(--font-primaire);
     
+    
 }
 p{
     color: var(--font-second);
     opacity: 1;
+    font-family: var(--font-familyPrincipal);
+    font-size: 0.9em;
     
 }
 
@@ -98,12 +112,7 @@ a{
     color: var(--font-primaire);
     border: solid var(--font-primaire);
     opacity: 0%;
-}
-#georges{
-    background-image: url(assets/georges.jpg);
-    background-size: cover;
-    size: center;
-    background-repeat: no-repeat;
+    font-family: var(--font-familyPrincipal);
 }
 .restoImg:hover {
     background-color: #ffd5af;
@@ -112,23 +121,19 @@ a{
 
       }
 
-#cucina{
-    background-image: url(assets/cucina.png);
-    background-size: cover;
-    size: center;
-    background-repeat: no-repeat;
-}
-
-#auguste {
-    background-image: url(assets/Auguste.png);
-    background-size: cover;
-    size: center;
-    background-repeat: no-repeat;
-}
-
-#prairial{
-    background-image: url(assets/prairial.jpg);
-    background-size: cover;
-    size: center;
-    background-repeat: no-repeat;
-}
+.first{
+    padding-right: 1em;
+    background-color: rgb(156, 39, 176);
+    }  
+.second{
+    padding-right: 1em;
+    background-color: rgb(255, 234, 0);
+    }  
+.thirth{
+    padding-right: 1em;
+    background-color: rgb(2, 136, 209);
+    }  
+.fourth{
+    padding-right: 1em;
+    background-color: rgb(15, 157, 88);
+    }  
