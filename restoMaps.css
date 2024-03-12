@@ -86,6 +86,74 @@
     background-repeat: no-repeat;
 }
 
+/* ===========CAROUSEL ===============*/
+#remCar {
+    background-image: url(assets/Rem.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+    transform: translateX(-50%) translateX(-120%) scale(0.6);
+    filter:brightness(40%);
+    z-index: 1;
+}
+#cucinaCar{
+    background-image: url(assets/cucina.png);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+    transform: translateX(-50%) translateX(-80%) scale(0.8);
+    filter:brightness(65%);
+    z-index: 2;
+    opacity:1;
+}
+#inadaCar {
+    background-image: url(assets/inada.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+    transform: translateX(-50%)  scale(1);
+    filter:brightness(100%);
+    z-index: 3;
+    opacity: 1;
+}
+#saveurCar {
+    background-image: url(assets/saveurdumonde.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+    transform: translateX(-50%) translateX(80%) scale(0.8);
+    filter:brightness(65%);
+    z-index: 2;
+    opacity: 1;
+}
+#hanoiCar {
+    background-image: url(assets/Hanoi.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+    transform: translateX(-50%) translateX(120%) scale(0.6);
+    filter:brightness(40%);
+    z-index: 1;
+    opacity: 1;
+}
+#terramiaCar {
+    background-image: url(assets/terramia.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+    transform: translateX(-50%) scale(1.5);
+    filter:brightness(40%);
+    z-index: 1;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
 @media screen and (min-width: 600px) {
     #georges{background-size: 100%;}
         #auguste { background-size: 100%;}
