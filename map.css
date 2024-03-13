@@ -25,7 +25,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 80%;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 h1 {
@@ -37,7 +37,7 @@ h1 {
 main{
     padding-left: 5px;
     padding-bottom: 1.5em;
-    width: 95%;
+    width: 100%;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -53,6 +53,8 @@ nav {background-color: var(--nav-color);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    justify-items: center;
+
 }
 
 .restoImg { 
@@ -72,10 +74,11 @@ nav {background-color: var(--nav-color);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 0.00em;
 }
 
 iframe {
-    width : 57%;
+    width : 49%;
     height: 25em;
     border-radius: 5%;
 }
@@ -88,6 +91,7 @@ footer {
 h2{
     font-size: 1.1rem;
     font-family: var(--font-familyPrincipal);
+    text-align: center;
 }
 #suggestions {
     padding-bottom: 1em;
@@ -108,7 +112,11 @@ h2{
     justify-content: space-between;
     height: 80px;
 }
-
+.suggest{
+    display: flex;
+    flex-direction: column;
+    
+}
 /*   ============== gestion des hoovers + images ============= */
 h3{ 
     color: var(--font-primaire);
@@ -136,20 +144,24 @@ a{
            a { opacity: 100%;}
 
       }
-
-.first{
+.colorpad {
+    width: 10em;
+    height: 5.5em;
+    border-radius: 5%;
+}
+#first{
     padding-right: 1em;
     background-color: rgb(156, 39, 176);
     }  
-.second{
+#second{
     padding-right: 1em;
     background-color: rgb(255, 234, 0);
     }  
-.thirth{
+#thirth{
     padding-right: 1em;
     background-color: rgb(2, 136, 209);
     }  
-.fourth{
+#fourth{
     padding-right: 1em;
     background-color: rgb(15, 157, 88);
     }  
@@ -157,7 +169,7 @@ a{
 #carousel {
     width: 100%;
     max-width: 100vw;
-    height: 150px;
+    height: 170px;
 /* position: absolute;
 top: 75%;*/
     padding-top: 80px;
@@ -325,7 +337,7 @@ top: 75%;*/
             width: 80%;
             height: 25em;
             justify-items: center;
-
+            
             gap:5%
             
         }
@@ -333,13 +345,13 @@ top: 75%;*/
            width: 33%;
            height: 100%;
         }
-        .first{ width: 49%;
+        .first{ width: 30%;
         height: 50%;}
-        .second{ width: 49%;
+        .second{ width: 30%;
             height: 50%;}
-        .thirth{ width: 49%;
+        .thirth{ width:30%;
             height: 50%;}
-        .fourth{ width: 49%;
+        .fourth{ width: 30%;
         height: 50%;}     
    
 .secondItem{
@@ -352,6 +364,7 @@ top: 75%;*/
 }
 #suggestions{
     padding-bottom: 5%;
+    width: 100%;
 }
 #autre div{
     height: 50%;

@@ -20,12 +20,7 @@
     size: center;
     background-repeat: no-repeat;
 }
-#rem {
-    background-image: url(assets/Rem.PNG);
-    background-size: cover;
-    size: center;
-    background-repeat: no-repeat;
-}
+
 #simone {
     background-image: url(assets/mlleSimone.PNG);
     background-size: cover;
@@ -85,8 +80,32 @@
     size: center;
     background-repeat: no-repeat;
 }
-
-/* ===========CAROUSEL ===============*/
+/* =========== BURGERS ===============*/
+#rem {
+    background-image: url(assets/Rem.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+#southFood {
+    background-image: url(assets/southFood.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+#bChef {
+    background-image: url(assets/bChef.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+#bPapa {
+    background-image: url(assets/Bpapa.PNG);
+    background-size: cover;
+    size: center;
+    background-repeat: no-repeat;
+}
+/* =========== CAROUSEL ===============*/
 #remCar {
     background-image: url(assets/Rem.PNG);
     background-size: cover;
