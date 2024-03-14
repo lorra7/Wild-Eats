@@ -52,12 +52,20 @@ a {
 }
 
 .socialiIcons a {
+<<<<<<< HEAD
     display: inline-block;
     font-size: 2rem;
     color: #fff;
     margin: 0 30px;
     padding-top: 0.4em;
 
+=======
+display:inline-block;
+font-size: 2rem;
+color: #fff;
+margin: 0 30px;
+padding-top:0.4em;
+>>>>>>> 2211fe30bfc14e373eddc5f54d22707682846141
 }
 
 .copyright {
