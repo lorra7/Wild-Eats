@@ -28,6 +28,7 @@ header {
 
     position: absolute;
     height: 100%;
+    z-index: 1;
     top: 0;
     background-color: #650808;
     transition: left 0.5s ease;
