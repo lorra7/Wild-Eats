@@ -2,6 +2,7 @@
     margin: 0;
 
 
+
 }
 
 header {
@@ -12,6 +13,8 @@ header {
     padding-left: 1rem;
     display: flex;
     flex-direction: column;
+
+
 }
 
 
@@ -30,15 +33,12 @@ header {
     height: 100%;
     z-index: 1;
     top: 0;
-    right: 50px;
     background-color: #650808;
-    padding-top: 60px;
     transition: left 0.5s ease;
     display: flex;
     flex-direction: column;
     display: none;
 }
-
 
 
 .active {
@@ -81,14 +81,12 @@ header {
 ul {
     text-align: end;
 
-
 }
 
-.burger-icon span {
+.burger-icon>span {
     display: block;
     width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px ;
-    
+    height: 1px;
+    background-color: white;    
+    margin: 10px 0;
 }
