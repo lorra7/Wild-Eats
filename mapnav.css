@@ -1,5 +1,7 @@
 * {
     margin: 0;
+
+
 }
 
 header {
@@ -17,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-right: 1rem;
-
+    width: 90%;
 
 }
 
@@ -35,9 +37,9 @@ header {
     display: flex;
     flex-direction: column;
     display: none;
-
-
 }
+
+
 
 .active {
     display: flex;
@@ -47,18 +49,18 @@ header {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color:white ;
     display: block;
     transition: 0.3s;
 
 }
 
-.sidenav a:hover {
+.sidenav > a:hover {
     color: rgb(196, 192, 192);
 
 }
 
-.sidenav ul {
+.sidenav > ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -87,6 +89,6 @@ ul {
     width: 35px;
     height: 5px;
     background-color: white;
-    margin: 6px 0;
-
+    margin: 6px ;
+    
 }
