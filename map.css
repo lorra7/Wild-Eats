@@ -2,7 +2,7 @@
     --main-color: white ;
     --font-primaire: #f4f4f4;
     --font-second: #fac758;
-    --nav-color: #650808;
+    /*--nav-color: #650808;*/
     --font-familyPrincipal: helvetica;
     --font-familyTitle: "Roboto", sans-serif;
 }
@@ -43,16 +43,14 @@ main{
     flex-direction: column;
    justify-content: space-between;
 }
-nav {background-color: var(--nav-color);
-    padding-bottom: 10%;
-} 
+
 
 
 #main { 
     padding: 2em 0 2em;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 2em;
     justify-items: center;
 
 }
@@ -131,7 +129,7 @@ p{
     
 }
 
-a{
+main a{
     text-decoration: none;
     color: var(--font-primaire);
     border: solid var(--font-primaire);
@@ -141,8 +139,7 @@ a{
 .restoImg:hover {
     background-color: #ffd5af;
     opacity: 0.5;
-           a { opacity: 100%;}
-
+    a { opacity: 100%;}
       }
 .colorpad {
     width: 10em;
