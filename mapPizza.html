@@ -5,74 +5,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="map.css">
     <link rel="stylesheet" href="restoMaps.css">
-    <title>Wild Eats</title>
+    <link rel="stylesheet" type="text/css" href="mapnav.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Restaurants Italiens</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <p>LOGO</p>
+    <header id="header">
+        <div class="div">
+            <img src="images/_4d843094-9298-41f1-998f-21d1606fb272.jpeg" alt="logo" width="50px">
+            <a href="#" id="openBtn">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </a>
+        </div>
+
+        <nav id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">x</a>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">A propos</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <h1>Cuisines Italienne et Pizzerias</h1>
-        <section id="main">
-            <div id="restaurant">
-                <div class="first">
-                    <div id="palio" class="restoImg">
-                        <h3>Il Palio</h3>
-                        <a class="resto" href="palio.html">En savoir plus</a>
-                        <p>pizzeria</p>
+        
+            <h1>Cuisine Italienne et Pizzeria</h1>
+            <section id="main">
+                <div id="restaurant">
+                    <div class="colorpad" id="first">
+                        <div id="palio" class="restoImg">
+                            <h3>Il Palio</h3>
+                            <a class="resto" href="palio.html">En savoir plus</a>
+                            <p>pizzeria</p>
+                        </div>
+                    </div>
+                    <div class="colorpad" id="second">
+                        <div id="avarelo"  class="restoImg">    
+                            <h3>Pizzeria Avarello</h3>
+                            <a class="resto" href="rem.html">En savoir plus</a>
+                            <p>Pizzeria</p>
+                        </div>    
+                    </div>   
+                    <div class="colorpad" id="thirth">
+                        <div id="terramia" class="restoImg">
+                            <h3>TerraMia</h3>
+                            <a class="resto" href="auguste.html">En savoir plus</a>                  
+                            <p>Cuisine Italienne</p>
+                        </div>
+                    </div>
+                    <div class="colorpad" id="fourth">
+                        <div id="cucina" class="restoImg">
+                            <h3>Cucina Bella</h3>
+                            <a class="resto" href="cucina.html">En savoir plus</a>
+                            <p>Cuisine Italienne</p>
+                        </div>
                     </div>
                 </div>
-                <div class="second">
-                    <div id="avarelo"  class="restoImg">    
-                        <h3>Pizzeria Avarello</h3>
-                        <a class="resto" href="rem.html">En savoir plus</a>
-                        <p>Pizzeria</p>
-                    </div>    
-                </div>   
-                <div class="thirth">
-                    <div id="terramia" class="restoImg">
-                        <h3>TerraMia</h3>
-                        <a class="resto" href="auguste.html">En savoir plus</a>                  
-                        <p>Cuisine Italienne</p>
-                    </div>
-                </div>
-                <div class="fourth">
-                    <div id="cucina" class="restoImg">
-                        <h3>Cucina Bella</h3>
-                        <a class="resto" href="cucina.html">En savoir plus</a>
-                        <p>Cuisine Italienne</p>
-                    </div>
-                </div>
-            </div>
-            <iframe src="https://www.google.com/maps/d/embed?mid=1mU5U-5F5IdSlQBURwYGBofxGolu0HtI&ehbc=2E312F" width="208" height="400"></iframe>
-        </section>
-        <section>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1mU5U-5F5IdSlQBURwYGBofxGolu0HtI&ehbc=2E312F" width="208" height="400"></iframe>
+            </section>
+        </div>
+        <section class="suggest">
             <div id="suggestions">
                 <div class="line"></div>
                 <h2>Autres suggestions</h2>
                 <div class="line"></div>
             </div>
-            <div id="autre">
-                
-                <div id="rem" class="restoImg">
+            <div id="carousel">
+                <div id="remCar" class="autreImg mv0to5">
                     <h3>Rem's</h3>
                     <a class="resto" href="rem.html">En savoir plus</a>
-                    <p>Blabla</p>
+                    <p>Hamburgers</p>
                 </div>
-                <div id="hanoi" class="restoImg">
+                <div id="cucinaCar" class="autreImg mv1to0">
+                    <h3>Cucina Bella</h3>
+                    <a class="resto" href="cucina.html">En savoir plus</a>
+                    <p>Cuisine Italienne</p>
+                </div>
+                <div id="inadaCar" class="autreImg mv2to1">
+                    <h3>Inada Confluence</h3>
+                    <a class="resto" href="inada.html">En savoir plus</a>
+                    <p>Restaurant japonais</p>
+                </div>
+                <div id="saveurCar"  class="autreImg mv3to2">    
+                    <h3>Saveur du monde</h3>
+                    <a class="resto" href="saveur.html">En savoir plus</a>
+                    <p>Restaurant asiatique</p>
+                </div>
+                <div id="hanoiCar" class="autreImg mv4to3">
                     <h3>Hanoï Cà Phê </h3>
                     <a class="resto" href="hanoi.html">En savoir plus</a>
                     <p>Restaurant vietnamien</p>
                 </div>
-            </div>   
-        </section>
+                <div id="terramiaCar" class="autreImg mv5to4">
+                    <h3>TerraMia</h3>
+                    <a class="resto" href="auguste.html">En savoir plus</a>                  
+                    <p>Cuisine Italienne</p>
+                </div>
+            </div>
+        </section> 
         <script src="scriptmap.js"></script>
     </main>
     <footer>
-        <p>blalbal</p>
-    </footer>
+        <div class="footerContainer">
+        <div class="socialiIcons">
+            <a href="https://www.facebook.com/groups/634599127140168/"><i class ="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/lyonfoodies/?hl=en"><i class ="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/playlist?list=PL1J41R1MZk4-_7SGr2DFjPLy6WDZOGxRW"><i class ="fa-brands fa-youtube"></i></a>
+            <a href="https://www.google.com/intl/fr_fr/business/restaurants/"><i class ="fa-brands fa-google-plus"></i></a>
+        </div>  
+        <div class="leg">
+        <div class="footerone">
+            <ul>
+                <li><a href="">contact</a></li>
+                <li><a href="">propos</a></li>
+                <li><a href="">faq</a></li>
+            </ul>
+           
+        </div>
+        <div class ="footertwo">
+            <ul>
+                   <li><a href="">Restaurateurs</a></li>
+                   <li><a href="">Nos coups de</a></li>
+                   <li><a href="">Nos restaurants</a></li>
+                   </ul>
     
+        </div>
+    </div> 
+        <p class="copyright"> copyright®</p>
+    </footer>
+    <script src="scriptmap.js"></script>
+    <script src="map.js"></script>
 </body>
 </html>

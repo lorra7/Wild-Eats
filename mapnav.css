@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+
+}
+
+header {
+
+    background-color: #650808;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.div {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+
+}
+
+
+.sidenav {
+
+    position: absolute;
+    height: 40%;
+    z-index: 1;
+    top: 0;
+    background-color: #650808;
+    transition: left 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+
+.active {
+    display: flex;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+
+}
+
+
+.sidenav a:hover {
+    background-color: rgb(202, 202, 202);
+
+
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidenav.active {
+    right: 0;
+}
+
+.sidenav .close {
+    right: 25px;
+    font-size: 36px;
+    text-align: right;
+    padding-right: 1.5rem;
+
+}
+
+ul {
+    text-align: end;
+
+}
+
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 1px;
+    background-color: white;
+    margin: 10px 0;
+
+}
