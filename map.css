@@ -314,7 +314,7 @@ top: 75%;*/
 }
 */
     /*=================== media screen ===============*/
-    @media screen and (min-width: 600px) {
+   /* @media screen and (min-width: 600px) {
       
         #restaurant {
             flex-direction: row;
