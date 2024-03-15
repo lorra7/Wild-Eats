@@ -55,7 +55,7 @@ header {
 
 }
 
-.sidenav > a:hover {
+.sidenav  a:hover {
     color: rgb(196, 192, 192);
 
 }
