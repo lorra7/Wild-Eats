@@ -1,5 +1,8 @@
 @media screen and (min-width: 600px) {
-      
+header {
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+}
     #restaurant {
         flex-direction: row;
         height: 100%;
@@ -17,8 +20,9 @@
  }
     main{
      
-        padding-left: 12%;
-        padding-right: 12%;
+        padding-left: 6%;
+        padding-right: 6%;
+        min-height: 650px;
         }
     #main{
        align-items: center;
@@ -85,4 +89,15 @@ h1 {
     padding-top: 3%;
     transform: translateY(-10%);
 }
+#desktop{
+    display:flex;
+    flex-direction: row;
+}
+}
+.none{
+    display: none;
+}
+.logo{
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
