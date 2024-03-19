@@ -34,19 +34,3 @@ function annimation (){
 
 setInterval("annimation()", 3000);
 setInterval("console.log(j)", 3000);
-
-
-/*=============MEDIA_QUERIES============*/
-let header = document.getElementById("header");
-let image = document.createElement('img');
-let iframemob = document.getElementById('iframe');
-let desktop = document.getElementById('desktop');
-let iframe = document.createElement("iframe");
-if (window.matchMedia("(min-width:600px)").matches){
-   header.appendChild(image);
-   image.setAttribute('src', 'assets/lyonv2.jpg');
-   image.setAttribute('class','banniere');
-   iframemob.classList.add('none');
-   desktop.appendChild(iframe);
-   iframe.setAttribute('class','desktop');   
-}
