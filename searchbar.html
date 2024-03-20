@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chartegraphique.css" />
+    <link rel="stylesheet" href="accueil.css" />
+    <link rel="stylesheet" href="mapnav.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="caroussel.css" />
+
+
+
+    <title>Chercher restaurants | Wild Eats</title>
+    <meta name="description" content="Rechercher les meilleures restaurants autour de la Wild" />
+    <!-- icone -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- alp -->
+        </nav>
+<!--searchbar mike-->
+<!-- <div class="search-bar">
+    <input id="search" type="search" placeholder="&#x1F50D; Que vous cherchiez vous?"/>
+    <select name="navigation"onchange="location = this.value;">
+  </div>-->
+</div>
+
+</header>   
+<div class="search-bar">
+    <input id="search" type="search" placeholder="&#x1F50D; Que vous cherchiez vous?" list="search list" autocomplete="off"/>
+    <select name="navigation"onchange="location = this.value;">
+    <datalist id="search-list">
+        <option value="accueil.html">Accueil</option>
+        <option value="map.html">Cuisine traditionnelle</option>
+        <option value="mapAsiatique.html">Cuisine Asiatique</option>
+        <option value="mapburger.html">Burgers & Sandwich</option>
+        <option value="mapPizza.html">Cuisine Italienne et Pizzeria</option>
+    </datalist>
+    </div>
+</div>
+
+
+
+
+
+    </header>
+
+    <main>
+        <!-- TYPE DE RESTOS -->
+        <h2>Types de restaurants</h2>
+        <section class="typeOfRestos">
+
+            <div id="asiatic" class="typeImg">Asiatique
+                <a href="mapAsiatique.html"></a>
+            </div>
+            <div id="italian" class="typeImg">Italien
+                <a href="mapPizza.html"></a>
+            </div>
+
+
+            <div id="american" class="typeImg">Américain
+                <a href="mapburger.html"></a>
+            </div>
+
+
+            <div id="traditionnal" class="typeImg">Cuisine traditionelle
+                <a href="restoMaps.css"></a>
+            </div>
+
+            <!-- <div id="african" class="typeImg">Africain</div>
+            <a href=""></a>
+            <div id="vegan" class="typeImg">Vegan</div>
+            <a href=""></a>-->
+        </section>
+
+        <!-- CAROUSSEL -->
+        <section class="suggest">
+            <div id="suggestions">
+                <div class="line"></div>
+                <h2>Autres suggestions</h2>
+                <div class="line"></div>
+            </div>
+            <div id="carousel">
+                <div id="remCar" class="autreImg mv0to5">
+                    <h3>Rem's</h3>
+                    <a class="resto" href="rem.html">En savoir plus</a>
+                    <p>Hamburgers</p>
+                </div>
+                <div id="cucinaCar" class="autreImg mv1to0">
+                    <h3>Cucina Bella</h3>
+                    <a class="resto" href="cucina.html">En savoir plus</a>
+                    <p>Cuisine Italienne</p>
+                </div>
+                <div id="inadaCar" class="autreImg mv2to1">
+                    <h3>Inada Confluence</h3>
+                    <a class="resto" href="inada.html">En savoir plus</a>
+                    <p>Restaurant japonais</p>
+                </div>
+                <div id="saveurCar" class="autreImg mv3to2">
+                    <h3>Saveur du monde</h3>
+                    <a class="resto" href="saveur.html">En savoir plus</a>
+                    <p>Restaurant asiatique</p>
+                </div>
+                <div id="hanoiCar" class="autreImg mv4to3">
+                    <h3>Hanoï Cà Phê </h3>
+                    <a class="resto" href="hanoi.html">En savoir plus</a>
+                    <p>Restaurant vietnamien</p>
+                </div>
+                <div id="terramiaCar" class="autreImg mv5to4">
+                    <h3>TerraMia</h3>
+                    <a class="resto" href="auguste.html">En savoir plus</a>
+                    <p>Cuisine Italienne</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- COUP DE COEUR -->
+        <h2>Nos coup de ❤️</h2>
+        <section class="favorites">
+
+
+            <div id="favorite1" class="favoriteImg">
+                <a href="mapAsiatique.html"></a>
+            </div>
+
+            <div id="favorite2" class="favoriteImg">
+                <a href="mapAsiatique.html"></a>
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <!-- Mirak -->
+    </footer>
+
+</body>
+
+</html>
