@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="chartegraphique.css" />
-    <link rel="stylesheet" href="accueil.css" />
-    <link rel="stylesheet" href="mapnav.css" />
-    <link rel="stylesheet" href="footer.css" />
-    <link rel="stylesheet" href="caroussel.css" />
+    <link rel="stylesheet" href="../ACCUEIL/accueil.css" />
+    <link rel="stylesheet" href="../mapnav.css" />
+    <link rel="stylesheet" href="../footer.css" />
+    <link rel="stylesheet" href="../ACCUEIL/caroussel.css" />
+    <link rel="stylesheet" href="../ACCUEIL/deskstop.css" />
 
 
 
@@ -18,9 +18,25 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <!-- alp -->
+    <header id="header">
+        <div class="div">
+            <img class="logo" src="images/_4d843094-9298-41f1-998f-21d1606fb272.jpeg" alt="logo" width="50px">
+            <a href="#" id="openBtn">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </a>
+        </div>
+
+        <nav id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">x</a>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">A propos</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -30,7 +46,7 @@
         <section class="typeOfRestos">
 
             <div id="asiatic" class="typeImg">Asiatique
-                <a href="mapAsiatique.html"></a>
+                <a href="../A"></a>
             </div>
             <div id="italian" class="typeImg">Italien
                 <a href="mapPizza.html"></a>
@@ -99,11 +115,11 @@
 
 
             <div id="favorite1" class="favoriteImg">
-                <a href="mapAsiatique.html"></a>
+                <a href="mapAsiatique.html">Nom 1</a>
             </div>
 
             <div id="favorite2" class="favoriteImg">
-                <a href="mapAsiatique.html"></a>
+                <a href="mapAsiatique.html">Nom 2</a>
             </div>
 
         </section>
@@ -113,8 +129,37 @@
     </main>
 
     <footer>
-        <!-- Mirak -->
+        <div class="footerContainer">
+            <div class="socialiIcons">
+                <a href="https://www.facebook.com/groups/634599127140168/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/lyonfoodies/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/playlist?list=PL1J41R1MZk4-_7SGr2DFjPLy6WDZOGxRW"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.google.com/intl/fr_fr/business/restaurants/"><i
+                        class="fa-brands fa-google-plus"></i></a>
+            </div>
+            <div class="leg">
+                <div class="footerone">
+                    <ul>
+                        <li><a href="">contact</a></li>
+                        <li><a href="">propos</a></li>
+                        <li><a href="">faq</a></li>
+                    </ul>
+
+                </div>
+                <div class="footertwo">
+                    <ul>
+                        <li><a href="">Restaurateurs</a></li>
+                        <li><a href="">Nos coups de</a></li>
+                        <li><a href="">Nos restaurants</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <p class="copyright"> copyright®</p>
     </footer>
+    <script src="scriptmap.js"></script>
+    <script src="map.js"></script>
 
 </body>
 
