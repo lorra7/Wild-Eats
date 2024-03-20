@@ -1,7 +1,7 @@
 /* RESTAURANT TRANDI FRANCE */
 #georges{
     background-image: url(assets/georges.jpg);
-    background-size: cover;
+ /*background-size: cover;*/
     size: center;
     background-repeat: no-repeat;
 }
@@ -9,21 +9,21 @@
 
 #auguste {
     background-image: url(assets/Auguste.png);
-    background-size: cover;
+    /*background-size: cover;*/
     size: center;
     background-repeat: no-repeat;
 }
 
 #prairial{
     background-image: url(assets/prairial.jpg);
-    background-size: cover;
+    /*background-size: cover;*/
     size: center;
     background-repeat: no-repeat;
 }
 
 #simone {
     background-image: url(assets/mlleSimone.PNG);
-    background-size: cover;
+    /*background-size: cover;*/
     size: center;
     background-repeat: no-repeat;
 }
@@ -32,84 +32,83 @@
 
 #inada {
     background-image: url(assets/inada.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/    size: center;
     background-repeat: no-repeat;
 }
 #saveur {
     background-image: url(assets/saveurdumonde.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
 }
 #shifumii {
     background-image: url(assets/SHIFUMII.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
 }
 #hanoi {
     background-image: url(assets/Hanoi.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
 }
 
 /*============ PIZZERIA ============ */
 #palio {
     background-image: url(assets/palio.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
 }
 #avarelo {
     background-image: url(assets/avarello.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
 }
 #terramia {
     background-image: url(assets/terramia.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
 }
 #cucina{
     background-image: url(assets/cucina.png);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
 }
 /* =========== BURGERS ===============*/
 #rem {
     background-image: url(assets/Rem.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
 }
 #southFood {
     background-image: url(assets/southFood.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
 }
 #bChef {
     background-image: url(assets/bChef.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
 }
 #bPapa {
     background-image: url(assets/Bpapa.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
 }
 /* =========== CAROUSEL ===============*/
 #remCar {
     background-image: url(assets/Rem.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
     transform: translateX(-50%) translateX(-120%) scale(0.6);
     filter:brightness(40%);
@@ -117,8 +116,8 @@
 }
 #cucinaCar{
     background-image: url(assets/cucina.png);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
     transform: translateX(-50%) translateX(-80%) scale(0.8);
     filter:brightness(65%);
@@ -127,8 +126,8 @@
 }
 #inadaCar {
     background-image: url(assets/inada.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/  
+   size: center;
     background-repeat: no-repeat;
     transform: translateX(-50%)  scale(1);
     filter:brightness(100%);
@@ -137,8 +136,8 @@
 }
 #saveurCar {
     background-image: url(assets/saveurdumonde.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
     transform: translateX(-50%) translateX(80%) scale(0.8);
     filter:brightness(65%);
@@ -147,8 +146,8 @@
 }
 #hanoiCar {
     background-image: url(assets/Hanoi.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
     transform: translateX(-50%) translateX(120%) scale(0.6);
     filter:brightness(40%);
@@ -157,15 +156,14 @@
 }
 #terramiaCar {
     background-image: url(assets/terramia.PNG);
-    background-size: cover;
-    size: center;
+ /*background-size: cover;*/
+     size: center;
     background-repeat: no-repeat;
     transform: translateX(-50%) scale(1.5);
     filter:brightness(40%);
     z-index: 1;
     opacity: 0;
 }
-
 
 
 
