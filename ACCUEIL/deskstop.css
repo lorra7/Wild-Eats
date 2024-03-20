@@ -1,0 +1,53 @@
+@media screen and (min-width: 600px) {
+
+    h2 {
+        font-size: 3em;
+    }
+
+    /* container : images restos */
+    .typeOfRestos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.2rem;
+    }
+
+    /* images .typeOfRestos */
+    .typeImg {
+        width: 22vw;
+        height: 22vw;
+        background-size: cover;
+        border: none;
+        padding: none;
+    }
+
+
+    /* SECTION 2 : COUP DE COEUR */
+
+    /* container : images restos */
+    .favorites {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 1rem;
+        gap: 0.5rem;
+        padding: 0.2rem;
+        padding-bottom: 7vw;
+    }
+
+    /* images .favorites */
+    .favoriteImg {
+        width: 42vw;
+        height: 22vw;
+        background-size: cover;
+        border: none;
+        padding: none;
+    }
+
+
+}
