@@ -12,7 +12,8 @@ function openNav() {
 
 }
 
-
 function closeNav() {
     sidenav.classList.remove("active");
 }
+
+const nav = document.getElementById("desktopli");
