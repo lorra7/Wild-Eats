@@ -12,7 +12,32 @@ function openNav() {
 
 }
 
-
 function closeNav() {
     sidenav.classList.remove("active");
+}
+
+if (window.matchMedia("(min-width: 600px)").matches) {
+    let diva = document.getElementById("diva")
+    let ul = document.createElement("ul");
+    diva.appendChild(ul);
+    ul.setAttribute("id", "navul");
+     function list(array) {
+        for (i in array) {
+            let li = document.createElement("li");
+            let lien = document.createElement("a");
+            lien.innerText = index[i]
+            lien.setAttribute('href', liens[i])
+            li.appendChild(lien) 
+            ul.appendChild(li);
+
+            
+
+        }
+    
+     }
+     let liens = ["accueil.html", "Restaurants.html", "A propos.html"]
+
+     let index = ["Accueil", "Restaurants", "A propos"]
+     list(index)
+
 }
