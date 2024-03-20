@@ -1,0 +1,22 @@
+/* Color  */
+
+:root {
+    --main-color: #650808;
+    --secondary-color: white;
+    --light-color: white;
+    --dark-color: black;
+
+    /* Font */
+
+    --title: Helvetica Calibri sans serif;
+    --main-font: Roboto thin 100;
+
+    --main-font-size: 0.8rem;
+    --title-font-size: 0.5rem;
+
+    /* Spacing */
+
+
+
+
+}
