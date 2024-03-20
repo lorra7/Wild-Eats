@@ -68,6 +68,16 @@ let image = document.createElement('img');
 let iframemob = document.getElementById('iframe');
 let desktop = document.getElementById('desktop');
 let iframe = document.createElement("iframe");
+/*
+let diva = document.getElementById("diva");
+console.log(diva)
+let liste = document.createElement("ul");
+console.log(liste)
+let la = document.createElement("li");
+let le = document.createElement("li");
+let lu = document.createElement("li");
+diva.appendChild(liste)*/
+
 if (window.matchMedia("(min-width:600px)").matches){
    header.appendChild(image);
    image.setAttribute('src', 'assets/lyonv2.jpg');
@@ -75,7 +85,7 @@ if (window.matchMedia("(min-width:600px)").matches){
    iframemob.classList.add('none');
    desktop.appendChild(iframe);
    iframe.setAttribute('class','desktop');   
-   iframe.setAttribute('src', map())
-   iframe.setAttribute('width', "450")
-   iframe.setAttribute('height','650')
+   iframe.setAttribute('src', map());
+   iframe.setAttribute('width', "450");
+   iframe.setAttribute('height','650');
 }
