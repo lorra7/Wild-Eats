@@ -25,7 +25,7 @@
             </a>
         </div>
 
-        <nav id="mySidenav" class="sidenav">
+     <nav id="mySidenav" class="sidenav">
             <a id="closeBtn" href="#" class="close">x</a>
             <ul>
                 <li><a href="#">Accueil</a></li>
@@ -33,12 +33,72 @@
                 <li><a href="#">A propos</a></li>
             </ul>
         </nav>
+
+        <div class="search-bar">
+            <input id="search" type="search" placeholder="&#x1F50D; Que vous cherchiez vous?" list="search list" autocomplete="off"/>
+            <select name="navigation"onchange="location = this.value;">
+            <datalist id="search-list">
+                <option value="accueil.html">Accueil</option>
+                <option value="map.html">Cuisine traditionnelle</option>
+                <option value="mapAsiatique.html">Cuisine Asiatique</option>
+                <option value="mapburger.html">Burgers & Sandwich</option>
+                <option value="mapPizza.html">Cuisine Italienne et Pizzeria</option>
+            </datalist>
+            </div>
+        </div>
+
     </header>
     <h1>Cuisine Asiatique</h1>
+    <div class="hidden" id="popup">
+
+<div id ="headResa">
+    <p id ="close" >X</p>
+    <h2>Réserver votre table</h2>
+</div>
+
+        
+        <form method="" id="reservationForm">
+            <!-- Nom de résa -->
+            <label for="nom"></label>
+            <span>A quel nom ?</span>
+            <input id="resaName" type="texte" placeholder="Nom" autocomplete="cc-family-name" />
+    
+            <!-- Nombre de personnes -->
+            <label for="persons"></label>
+            <span>Une table pour combien ?</span>
+            <input id="persons" type="number" placeholder="" />
+    
+            <!-- Date et heure de réservation -->
+            <label for="date"></label>
+            <span>Pour quand ?</span>
+            <input id="resaDateTime" type="datetime-local" />
+    
+            <!-- Téléphone -->
+            <label for="telephone" autocomplete="a"></label>
+            <span>Téléphone</span>
+            <input id="telephone=" type="tel" placeholder="Ex :0600000000" autocomplete="tel-area-code"
+                autocomplete="tel-extension" />
+    
+    
+            <!-- Requête du client-->
+            <span>Une requête ?</span>
+            <label for="requete"></label>
+    
+            <input id="customRequest" type="text" placeholder="Ex: Nous aimerions une table en terrasse" autocomplete=""
+                maxlength="700">
+    
+            <!--Valider réservation-->
+            <button class="reserveButton" type="submit">Réserver</button>
+            </div>
+        </form>
+    </div>
     <div id="desktop">
+      
+        
         <main>
         
             <section id="main">
+        
                 <div id="restaurant">
                     <div class="colorpad" id="first">
                         <div id="inada" class="restoImg">
@@ -151,5 +211,6 @@
         
     <script src="scriptmap.js"></script>
     <script src="map.js"></script>
+    <script src="Reservation.js"></script>
 </body>
 </html>

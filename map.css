@@ -147,7 +147,11 @@ main a{
     width: 10em;
     height: 5.5em;
     border-radius: 5%;
+    z-index: 1;
+
 }
+
+
 #first{
     padding-right: 1em;
     background-color: rgb(156, 39, 176);
@@ -293,6 +297,32 @@ top: 75%;*/
     animation-fill-mode: forwards;
 }
 
+
+
+
+
+#popup {
+    height: 50vh;
+    width: 50vw;
+    z-index: 2;
+}
+.hidden
+{
+    display:none ;
+}
+.customForm{
+display: flex;
+background-color:grey;
+}
+button{
+    background-color: #650808;
+    border-radius: 20%;
+    color:white;
+}
+.reserveButton{
+    background-color:white;
+}
+
 /*
 .slick-track{height: 80px;} /*Hauter du carroussel
 .card{
@@ -376,3 +406,4 @@ top: 75%;*/
     gap: 5%;
 }
 }
+.
