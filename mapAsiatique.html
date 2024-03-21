@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +7,18 @@
     <link rel="stylesheet" href="restoMaps.css">
     <link rel="stylesheet" type="text/css" href="mapnav.css">
     <link rel="stylesheet" type="text/css" href="footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="mapDesktop.css">
+    <link rel="stylesheet" type="text/css" href="mapDesktop.css"> 
+    <link rel="stylesheet" type="text/css" href="desktopnav.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
     <title>Restaurants Asiatiques</title>
 </head>
 </head>
-
 <body>
     <header id="header">
-        <div class="div">
-            <img src="images/LOGO1.png" alt="logo" width="50px">
+        <div id="diva" class="div">
+            <img class="logo" src="images/LOGO1.png" alt="logo" width="50px">
             <a href="#" id="openBtn">
                 <span class="burger-icon">
                     <span></span>
@@ -29,69 +28,89 @@
             </a>
         </div>
 
+
         <nav id="mySidenav" class="sidenav">
             <a id="closeBtn" href="#" class="close">x</a>
             <ul>
-                <li><a href="#">Accueil</a></li>
+                <li><a href="ACCUEIL/accueil.html">Accueil</a></li>
                 <li><a href="#">Restaurants</a></li>
                 <li><a href="#">A propos</a></li>
             </ul>
         </nav>
     </header>
     <h1>Cuisine Asiatique</h1>
-    <div id="desktop">
-        <main>
+    <div class="hidden" id="popup">
 
+        <div id="headResa">
+        <p id="close">X</p>
+        <h2>Réserver votre table</h2>
+    </div>
+        
+        <form method="" id="reservationForm">
+            <!-- Nom de résa -->
+            <label for="nom"></label>
+            <span>A quel nom ?</span>
+            <input id="resaName" type="texte" placeholder="Nom" autocomplete="cc-family-name" />
+    
+            <!-- Nombre de personnes -->
+            <label for="persons"></label>
+            <span>Une table pour combien ?</span>
+            <input id="persons" type="number" placeholder="" />
+    
+            <!-- Date et heure de réservation -->
+            <label for="date"></label>
+            <span>Pour quand ?</span>
+            <input id="resaDateTime" type="datetime-local" />
+    
+            <!-- Téléphone -->
+            <label for="telephone" autocomplete="a"></label>
+            <span>Téléphone</span>
+            <input id="telephone=" type="tel" placeholder="Ex :0600000000" autocomplete="tel-area-code"
+                autocomplete="tel-extension" />
+    
+    
+            <!-- Requête du client-->
+            <span>Une requête ?</span>
+            <label for="requete"></label>
+    
+            <input id="customRequest" type="text" placeholder="Ex: Nous aimerions une table en terrasse" autocomplete=""
+                maxlength="700">
+    
+            <!--Valider réservation-->
+            <button class="reserveButton" type="submit">Réserver</button>
+            </div>
+        </form>
+    </div>
+    <div id="desktop">
+      
+        
+        <main>
+        
             <section id="main">
+        
                 <div id="restaurant">
                     <div class="colorpad" id="first">
                         <div id="inada" class="restoImg">
                             <h3>Inada Confluence</h3>
                             <a class="resto" href="inada.html">En savoir plus</a>
                             <p>Restaurant japonais</p>
+                            <button class="card-button">RÉSERVER </button>
                         </div>
-                        <id="reservation-form">
-                            <form method=""> <label>Nom :
-                                    <input name="submitted-name" autocomplete="name" />
-                                </label>
-                                <button>Sauvegarder</button>
-                            </form>
-
-                            </id>
-                            <label for="nom" aria-placeholder="Votre nom"></label>
-                            <form action="" method="post"></form>
-                            <input type="number" id="nom">
-                            <ul class="persons"> -->
-                                <li>
-                                    <label>Nombre de personnes</label>
-                                    <div class="input-text">
-                                        <select name="adultes">
-                                            <option value="1">1</option>
-                                            <option value="2" selected="selected">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="4">4</option>
-                                            <option value="4">4</option>
-                                            <option value="4">4</option>
-                                            <option value="4">4</option>
-                                        </select>
-                                        <div class="icon"></div>
-                                    </div>
-                                </li>
-                                <button type="Envoyer">Valider</button>
-                    </div>
+                    </div> 
                     <div class="colorpad" id="second">
-                        <div id="saveur" class="restoImg">
+                        <div id="saveur"  class="restoImg">    
                             <h3>Saveur du monde</h3>
                             <a class="resto" href="saveur.html">En savoir plus</a>
                             <p>Restaurant asiatique</p>
-                        </div>
+                            <button class="card-button">RÉSERVER </button>
+                        </div> 
                     </div>
-                    <div class="colorpad" id="thirth">
+                    <div class="colorpad" id="thirth">  
                         <div id="shifumii" class="restoImg">
                             <h3>SHIFUMII </h3>
                             <a class="resto" href="SHIFUMII .html">En savoir plus</a>
                             <p>Restaurant japonais</p>
+                            <button class="card-button">RÉSERVER </button>
                         </div>
                     </div>
                     <div class="colorpad" id="fourth">
@@ -99,12 +118,11 @@
                             <h3>Hanoï Cà Phê </h3>
                             <a class="resto" href="hanoi.html">En savoir plus</a>
                             <p>Restaurant vietnamien</p>
+                            <button class="card-button">RÉSERVER </button>
                         </div>
                     </div>
                 </div>
-                <iframe id="iframe"
-                    src="https://www.google.com/maps/d/embed?mid=19ddolDLJwYVArj1gDlYpI4ZFijXTlfk&ehbc=2E312F"
-                    width="208" height="400"></iframe>
+                <iframe id="iframe" src="https://www.google.com/maps/d/embed?mid=19ddolDLJwYVArj1gDlYpI4ZFijXTlfk&ehbc=2E312F" width="208" height="400"></iframe>
             </section>
             <section class="suggest">
                 <div id="suggestions">
@@ -117,30 +135,35 @@
                         <h3>Rem's</h3>
                         <a class="resto" href="rem.html">En savoir plus</a>
                         <p>Hamburgers</p>
+                        <button class="card-button">RÉSERVER </button>
                     </div>
                     <div id="cucinaCar" class="autreImg mv1to0">
                         <h3>Cucina Bella</h3>
                         <a class="resto" href="cucina.html">En savoir plus</a>
                         <p>Cuisine Italienne</p>
+                        <button class="card-button">RÉSERVER </button>
                     </div>
                     <div id="inadaCar" class="autreImg mv2to1">
                         <h3>Inada Confluence</h3>
                         <a class="resto" href="inada.html">En savoir plus</a>
                         <p>Restaurant japonais</p>
+                        <button class="card-button">RÉSERVER </button>
                     </div>
-                    <div id="saveurCar" class="autreImg mv3to2">
+                    <div id="saveurCar"  class="autreImg mv3to2">    
                         <h3>Saveur du monde</h3>
                         <a class="resto" href="saveur.html">En savoir plus</a>
                         <p>Restaurant asiatique</p>
+                        <button class="card-button">RÉSERVER </button>
                     </div>
                     <div id="hanoiCar" class="autreImg mv4to3">
                         <h3>Hanoï Cà Phê </h3>
                         <a class="resto" href="hanoi.html">En savoir plus</a>
                         <p>Restaurant vietnamien</p>
+                        <button class="card-button">RÉSERVER </button>
                     </div>
                     <div id="terramiaCar" class="autreImg mv5to4">
                         <h3>TerraMia</h3>
-                        <a class="resto" href="auguste.html">En savoir plus</a>
+                        <a class="resto" href="auguste.html">En savoir plus</a>                  
                         <p>Cuisine Italienne</p>
                     </div>
                 </div>
@@ -151,13 +174,11 @@
     <footer>
         <div class="footerContainer">
             <div class="socialiIcons">
-                <a href="https://www.facebook.com/groups/634599127140168/"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com/lyonfoodies/?hl=en"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.youtube.com/playlist?list=PL1J41R1MZk4-_7SGr2DFjPLy6WDZOGxRW"><i
-                        class="fa-brands fa-youtube"></i></a>
-                <a href="https://www.google.com/intl/fr_fr/business/restaurants/"><i
-                        class="fa-brands fa-google-plus"></i></a>
-            </div>
+                <a href="https://www.facebook.com/groups/634599127140168/"><i class ="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/lyonfoodies/?hl=en"><i class ="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/playlist?list=PL1J41R1MZk4-_7SGr2DFjPLy6WDZOGxRW"><i class ="fa-brands fa-youtube"></i></a>
+                <a href="https://www.google.com/intl/fr_fr/business/restaurants/"><i class ="fa-brands fa-google-plus"></i></a>
+            </div>  
             <div class="leg">
                 <div class="footerone">
                     <ul>
@@ -166,19 +187,19 @@
                         <li><a href="">faq</a></li>
                     </ul>
                 </div>
-                <div class="footertwo">
+                <div class ="footertwo">
                     <ul>
                         <li><a href="">Restaurateurs</a></li>
                         <li><a href="">Nos coups de</a></li>
                         <li><a href="">Nos restaurants</a></li>
                     </ul>
                 </div>
-            </div>
-            <p class="copyright"> copyright®</p>
+            </div> 
+        <p class="copyright"> copyright®</p>
     </footer>
-
+        
     <script src="scriptmap.js"></script>
     <script src="map.js"></script>
+    <script src="Reservation.js"></script>
 </body>
-
 </html>

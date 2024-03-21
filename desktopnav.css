@@ -2,6 +2,9 @@
     .burger-icon {
         display: none;
     }
+    
+}
+
 .logo {
     padding-bottom: 0.7rem;
 }
@@ -10,9 +13,7 @@ header {
     padding: 0;
 }
 
-}
-
-#navul {
+.navul {
     display: flex;
     flex-direction: row;
     gap: 5rem;
