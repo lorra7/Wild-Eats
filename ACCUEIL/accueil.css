@@ -66,6 +66,10 @@ h2 {
 
 /* images .typeOfRestos */
 .typeImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
     width: 46vw;
     height: 46vw;
     background-size: cover;
@@ -104,6 +108,9 @@ h2 {
 
 /* images .favorites */
 .favoriteImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 46vw;
     height: 46vw;
     background-size: cover;
