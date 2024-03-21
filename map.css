@@ -152,7 +152,7 @@ main a {
 .restoImg:hover {
     background-color: #ffd5af;
     opacity: 0.5;
-
+    button { opacity: 100%;}
     a {
         opacity: 100%;
     }
@@ -377,12 +377,6 @@ top: 75%;*/
 }
 
 
-.customForm {
-    display: flex;
-    position: absolute;
-    background-color: aqua;
-    
-}
 
 /*
 .slick-track{height: 80px;} /*Hauter du carroussel

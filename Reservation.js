@@ -13,11 +13,10 @@ const X = document.getElementById('close');
 X.addEventListener(('click'), () => {
     popup.classList.add("hidden")
     popup.classList.remove("customForm")
+    
 })
-
-
-
-
-
-
-
+const resa = document.getElementById("reserveButton");
+resa.addEventListener(('click'), () => {
+    alert("Votre table est bien réservé !")
+    popup.classList.add("hidden")
+    popup.classList.remove("customForm")});

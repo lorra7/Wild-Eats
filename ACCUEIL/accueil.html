@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../footer.css" />
     <link rel="stylesheet" href="../ACCUEIL/caroussel.css" />
     <link rel="stylesheet" href="../ACCUEIL/deskstop.css" />
+    <link rel="stylesheet" href="../restoMaps.css" />
+    <link rel="stylesheet" href="../desktopnav.css" />
 
 
 
@@ -19,8 +21,10 @@
 
 <body>
     <header id="header">
-        <div class="div">
-            <img class="logo" src="images/_4d843094-9298-41f1-998f-21d1606fb272.jpeg" alt="logo" width="50px">
+
+        <div id="diva" class="div">
+
+            <img class="logo" src="../images/LOGO1.png" alt="logo" width="50px">
             <a href="#" id="openBtn">
                 <span class="burger-icon">
                     <span></span>
@@ -29,11 +33,11 @@
                 </span>
             </a>
         </div>
-
+    
         <nav id="mySidenav" class="sidenav">
             <a id="closeBtn" href="#" class="close">x</a>
             <ul>
-                <li><a href="#">Accueil</a></li>
+                <li><a href="accueil.html">Accueil</a></li>
                 <li><a href="#">Restaurants</a></li>
                 <li><a href="#">A propos</a></li>
             </ul>
@@ -45,21 +49,21 @@
         <h2>Types de restaurants</h2>
         <section class="typeOfRestos">
 
-            <div id="asiatic" class="typeImg">Asiatique
-                <a href="../A"></a>
+            <div id="asiatic" class="typeImg">
+                <a href="../mapAsiatique.html">Asiatique</a>
             </div>
-            <div id="italian" class="typeImg">Italien
-                <a href="mapPizza.html"></a>
-            </div>
-
-
-            <div id="american" class="typeImg">Américain
-                <a href="mapburger.html"></a>
+            <div id="italian" class="typeImg">
+                <a href="../mapPizza.html">Italien</a>
             </div>
 
 
-            <div id="traditionnal" class="typeImg">Cuisine traditionelle
-                <a href="restoMaps.css"></a>
+            <div id="american" class="typeImg">
+                <a href="../mapburger.html">Américain</a>
+            </div>
+
+
+            <div id="traditionnal" class="typeImg">
+                <a href="../map.html">Cuisine traditionelle</a>
             </div>
 
             <!-- <div id="african" class="typeImg">Africain</div>
@@ -158,8 +162,10 @@
             </div>
             <p class="copyright"> copyright®</p>
     </footer>
-    <script src="scriptmap.js"></script>
-    <script src="map.js"></script>
+    <script src="accueil.js"></script>
+    <script src="../map.js"></script>
+
+
 
 </body>
 

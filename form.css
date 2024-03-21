@@ -1,4 +1,4 @@
-.reserveButton {
+#reserveButton {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
@@ -11,14 +11,42 @@
     padding-bottom: 4vw;
     padding-right: 4vw;
     padding-left: 4px;
-    margin-left: 4vw;
+    margin-top: 10vh;
+    margin-left: 12vw;
     border-radius: 0.8rem;
     box-shadow: gray 8px;
+    
 }
 
-close{
+.card-button {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color:rgb(15, 15, 15);
+    z-index: 2;
+    border-radius: 10%;
+    opacity: 0;
+}
+#close {
+    font-size: 2rem;
+    color: black;
 
 }
+#headResa {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.5em;
+    padding-right: 0.5rem;
+}
+
+.resaBloc{
+    display: flex;
+    justify-content: space-between;
+    justify-items: start;
+    padding-bottom: 0.2rem;
+}
+
 
 
 
@@ -48,7 +76,16 @@ re #resaName {
     cursor: text
 }
 
-#request {}
+.customForm {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(235, 243, 243);
+    top : 25%;
+    right: 25%;
+    border-radius: 3%;
+    border: black solid;
+}
 
 strong {
     color: forestgreen;
@@ -59,6 +96,3 @@ strong {
     border: solid thin grey;
     /* border-radius: 2vh; */
 }
-
-
-
