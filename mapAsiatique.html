@@ -29,7 +29,6 @@
         </div>
 
 
-        <nav id="mySidenav" class="sidenav">
             <a id="closeBtn" href="#" class="close">x</a>
             <ul>
                 <li><a href="ACCUEIL/accueil.html">Accueil</a></li>
@@ -37,14 +36,25 @@
                 <li><a href="#">A propos</a></li>
             </ul>
         </nav>
+
+        <div class="search-bar">
+            <input id="search" type="search" placeholder="&#x1F50D; Que vous cherchiez vous?" list="search list" autocomplete="off"/>
+            <select name="navigation"onchange="location = this.value;">
+            <datalist id="search-list">
+                <option value="accueil.html">Accueil</option>
+                <option value="map.html">Cuisine traditionnelle</option>
+                <option value="mapAsiatique.html">Cuisine Asiatique</option>
+                <option value="mapburger.html">Burgers & Sandwich</option>
+                <option value="mapPizza.html">Cuisine Italienne et Pizzeria</option>
+            </datalist>
+            </div>
+        </div>
+
     </header>
     <h1>Cuisine Asiatique</h1>
     <div class="hidden" id="popup">
 
-        <div id="headResa">
-        <p id="close">X</p>
-        <h2>Réserver votre table</h2>
-    </div>
+
         
         <form method="" id="reservationForm">
             <!-- Nom de résa -->
