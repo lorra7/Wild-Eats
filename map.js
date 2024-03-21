@@ -35,7 +35,7 @@ if (window.matchMedia("(min-width: 600px)").matches) {
     
      }
 
-    let liens = ["accueil.html", "Restaurants.html", "A propos.html"]
+    let liens = ["ACCUEIL/accueil.html", "Restaurants.html", "A propos.html"]
     
     let index = ["Accueil", "Restaurants", "A propos"]
     list(index)
