@@ -166,13 +166,6 @@ main a {
 
 }
 
-.card-button {
-    z-index: -1;
-
-}
-
-
-#first {
     padding-right: 1em;
     background-color: rgb(156, 39, 176);
 }
@@ -364,25 +357,7 @@ top: 75%;*/
 
 
 
-#popup {
-    position: absolute;
-    height: 50vh;
-    width: 50vw;
-    z-index: 2;
 
-}
-
-.hidden {
-    display: none;
-}
-
-
-.customForm {
-    display: flex;
-    position: absolute;
-    background-color: aqua;
-    
-}
 
 /*
 .slick-track{height: 80px;} /*Hauter du carroussel

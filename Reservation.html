@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservation.css" />
+    <title>reservationForm</title>
+</head>
+<body>
+    <h2>Réserver votre table</h2>
+    <form method="" id="reservationForm">
+        <!-- Nom de résa -->
+        <label for="nom"></label>
+        <span>A quel nom ?</span>
+        <input id="resaName" type="texte" placeholder="Nom" autocomplete="cc-family-name" />
+
+        <!-- Nombre de personnes -->
+        <label for="persons"></label>
+        <span>Une table pour combien ?</span>
+        <input id="persons" type="number" placeholder="" />
+
+        <!-- Date et heure de réservation -->
+        <label for="date"></label>
+        <span>Pour quand ?</span>
+        <input id="resaDateTime" type="datetime-local" />
+
+        <!-- Téléphone -->
+        <label for="telephone" autocomplete="a"></label>
+        <span>Téléphone</span>
+        <input id="telephone=" type="tel" placeholder="Ex :0600000000" autocomplete="tel-area-code"
+            autocomplete="tel-extension" />
+
+
+        <!-- Requête du client-->
+        <span>Une requête ?</span>
+        <label for="requete"></label>
+
+        <input id="customRequest" type="text" placeholder="Ex: Nous aimerions une table en terrasse" autocomplete=""
+            maxlength="700">
+
+        <!--Valider réservation-->
+        <button class="reserveButton" type="submit">Réserver</button>
+        </div>
+    </form>
+</form>
+<script src="Reservation.js"></script>
+</body>
+</html>
